@@ -1,7 +1,7 @@
 class Netdoctor < Formula
   desc "Network health-check CLI that walks the DevOps debugging ladder and grades each host"
   homepage "https://github.com/Sahilll15/netdoctor"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
@@ -9,14 +9,14 @@ class Netdoctor < Formula
     # can be added on a future release).
     on_arm do
       url "https://github.com/Sahilll15/netdoctor/releases/download/v#{version}/netdoctor-macos-arm64"
-      sha256 "24c26d461d488e7d6f01f68b9fad64eed0c1c9711a8e1300f36ceb3f993dbf7e"
+      sha256 "c5cc8da6e14b2d9d5e0d405b082bce3187b36c0c7d335cd75881ebb7168fba86"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Sahilll15/netdoctor/releases/download/v#{version}/netdoctor-linux-x86_64"
-      sha256 "ea3e2017fe869147b97695a3f7b37a08ea4d32feef2255603fb001f6c1304111"
+      sha256 "aae0ae4fc2920ad145f2214aab91b82ee6a38595b5f48ba571b86e5514e63c0c"
     end
   end
 
