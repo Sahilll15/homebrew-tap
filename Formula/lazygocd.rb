@@ -1,10 +1,9 @@
 class Lazygocd < Formula
   desc "Fast, keyboard-driven terminal UI for GoCD"
   homepage "https://github.com/Sahilll15/lazygocd"
-  url "https://github.com/Sahilll15/lazygocd/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "4c745b0f041a5ba699024013f6e6df029b7788a9b52a1fddd88c42c01516e559"
+  url "https://github.com/Sahilll15/lazygocd/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "0e41635080bbf29b2be9b57f0d151142a01eb4e29294897ef1570d9ed6ee0728"
   license "MIT"
-
 
   depends_on "rust" => :build
 
