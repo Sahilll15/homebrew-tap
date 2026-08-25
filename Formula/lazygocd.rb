@@ -5,6 +5,12 @@ class Lazygocd < Formula
   sha256 "8285a7abccc0e44a6d2d68702acf1926a30a70297664a1fa491dab3cecbbb4ef"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/Sahilll15/lazygocd/releases/download/v0.10.0"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "72b9078be96e8ab4d755dbb2e193c9017c8242eae1d62cd2ea0b6d3675e2f186"
+  end
+
 
 
 
