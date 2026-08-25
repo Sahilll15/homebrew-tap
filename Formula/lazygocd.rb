@@ -2,7 +2,7 @@ class Lazygocd < Formula
   desc "Fast, keyboard-driven terminal UI for GoCD"
   homepage "https://github.com/Sahilll15/lazygocd"
   url "https://github.com/Sahilll15/lazygocd/archive/refs/tags/v0.10.3.tar.gz"
-  sha256 "609bf67a539a3e84f379f91e771e78ba65a2f94a80084b78e69716a4f9d39064"
+  sha256 "d647e6da24ff520132bbeb778af6157a1c141abd40bd6f5a909d6e1f6aff718c"
   license "MIT"
 
   bottle do
