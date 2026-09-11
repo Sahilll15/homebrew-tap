@@ -1,17 +1,9 @@
 class Lazygocd < Formula
   desc "Fast, keyboard-driven terminal UI for GoCD"
   homepage "https://github.com/Sahilll15/lazygocd"
-  url "https://github.com/Sahilll15/lazygocd/archive/refs/tags/v0.11.0.tar.gz"
-  sha256 "e89e665d541d9bcb53a93f1ee872c249bad608e0e54caa46f6b0886ad1b7836c"
+  url "https://github.com/Sahilll15/lazygocd/archive/refs/tags/v0.12.0.tar.gz"
+  sha256 "757c4fc100c7efd349a609b85cd0f81a07524106fb556f4c29d415c5940a8977"
   license "MIT"
-  # Formula-only change: the binary is identical, but the keg now ships shell
-  # completions and the man page, so it needs a new bottle.
-  revision 1
-
-  bottle do
-    root_url "https://github.com/Sahilll15/lazygocd/releases/download/v0.11.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe: "5288e573b454c6b85b0128b8d29e5b5bed49cb6e00d29155f5a289b7c94723ac"
-  end
 
   depends_on "rust" => :build
 
