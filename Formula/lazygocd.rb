@@ -5,6 +5,11 @@ class Lazygocd < Formula
   sha256 "757c4fc100c7efd349a609b85cd0f81a07524106fb556f4c29d415c5940a8977"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/Sahilll15/lazygocd/releases/download/v0.12.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "709c1634bcfacba39f7eb01ee03bdd42ae194dd0e812a378902c7758ed3edad8"
+  end
+
   depends_on "rust" => :build
 
   def install
